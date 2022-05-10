@@ -260,18 +260,21 @@ padding: 0px;
 
     aside > ul {
 
-
+        font-size: 12px;
         list-style-type:'\2714\00A0\00A0';
         list-style-position: inside;
         columns: 2;
+        column-gap: 6px;
+        font-size:1vw;
+        
+        
 
 
     }        
 
     footer{
-
         background-color: var(--cor5);
-        color: white;
+        color: rgb(255, 255, 255);
         text-align: center;
         font-size: 0.8;
         padding: 5px;
@@ -279,8 +282,7 @@ padding: 0px;
 
     footer a:hover {
 
-        text-decoration: underline;
-        color: var(--cor1);
+        color:rgb(255, 0, 0);
 
 
 
